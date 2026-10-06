@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Typing Speed Tester</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+
+        <!-- Heading -->
+
+        <h1>Typing Speed Tester</h1>
+
+
+        <p class="instruction">
+            Type the sentence below as quickly and accurately as you can.
+        </p>
+
+
+
+        <!-- Sentence to Type -->
+
+        <div id="text-display">
+
+            The quick brown fox jumps over the lazy dog.
+
+        </div>
+
+
+
+        <!-- Typing Area -->
+
+        <textarea
+            id="text-input"
+            placeholder="Start typing here..."
+        ></textarea>
+
+
+
+        <!-- Results -->
+
+        <div class="results">
+
+
+            <!-- Time -->
+
+            <div class="result-box time-box">
+
+                <div class="result-icon">
+                    ⏱️
+                </div>
+
+                <h3>Time</h3>
+
+                <p>
+                    <span id="time">0</span> seconds
+                </p>
+
+            </div>
+
+
+
+            <!-- WPM -->
+
+            <div class="result-box wpm-box">
+
+                <div class="result-icon">
+                    ⚡
+                </div>
+
+                <h3>WPM</h3>
+
+                <p>
+                    <span id="wpm">0</span>
+                </p>
+
+            </div>
+
+
+
+            <!-- Accuracy -->
+
+            <div class="result-box accuracy-box">
+
+                <div class="result-icon">
+                    🎯
+                </div>
+
+                <h3>Accuracy</h3>
+
+                <p>
+                    <span id="accuracy">0</span>%
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Restart Button -->
+
+        <button id="restart-button">
+            Restart
+        </button>
+
+
+
+        <!-- Completion Message -->
+
+        <p id="completion-message"></p>
+
+
+    </div>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
